@@ -1,0 +1,10 @@
+#N canvas 0 0 450 300 10;
+#X obj 207 99 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 149 98 osc~ 330;
+#X obj 177 123 spigot~;
+#X obj 216 142 dac~;
+#X connect 0 0 2 1;
+#X connect 1 0 2 0;
+#X connect 2 1 3 0;
+#X connect 2 1 3 1;

@@ -1,0 +1,16 @@
+#N canvas 661 168 450 300 10;
+#X obj 163 169 writesf~ 2;
+#X obj 281 80 r~ gate_out_r;
+#X obj 64 56 r~ gate_out_l;
+#X msg 165 109 start;
+#X msg 207 108 stop;
+#X obj 49 37 r~ drumsequencer_out_l;
+#X obj 291 56 r~ drumsequencer_out_r;
+#X msg 161 135 open getsoundtracked.wav;
+#X connect 1 0 0 1;
+#X connect 2 0 0 0;
+#X connect 3 0 0 0;
+#X connect 4 0 0 0;
+#X connect 5 0 0 0;
+#X connect 6 0 0 1;
+#X connect 7 0 0 0;

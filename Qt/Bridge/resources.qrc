@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/resources">
+        <file alias="splash.png">images/Spash.png</file>
+        <file>data/ps2.ctl</file>
+        <file>data/slide.ctl</file>
+        <file>data/golf.ctl</file>
+        <file>data/guitar.ctl</file>
+        <file>data/drum.ctl</file>
+    </qresource>
+</RCC>
